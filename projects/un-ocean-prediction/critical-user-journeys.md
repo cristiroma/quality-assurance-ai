@@ -2,23 +2,23 @@
 
 > **TODO**: Document de validat cu PM și utilizatori reali în săptămâna 1.
 > 
-> CUJ = un flow care, dacă e rupt, **utilizatorul nu poate atinge un obiectiv business** important.
+> CUJ = un flow care, dacă nu funcționează, **utilizatorul nu poate atinge un obiectiv business** important.
 > Nu confunda cu "feature" – un CUJ traversează multiple feature-uri.
 
 ## Anonymous (vizitator)
 
-### CUJ-A1: Descoperă atlas-ul de modele oceanice
+### CUJ-A1: Descoperă aplicația Atlas
 1. Aterizează pe homepage `https://www.unoceanprediction.org/`
 2. Navighează către "Atlas" (meniu principal)
 3. Așteaptă încărcarea hărții (iframe Nuxt)
-4. Vede markeri pe hartă cu modele oceanice
-5. Click pe un marker → vede detalii model
+4. Vede markeri pe hartă cu persoane, organizații, modele și use-case oceanice
+5. Click pe un marker → vede detaliile unei persoane, organizație, model sau use-case
 6. **Goal**: Înțelege ce conține portalul.
 
 **Priority**: 🔴 Critical. Aceasta este probabil cea mai vizitată pagină.
 
 ### CUJ-A2: Filtrează modele după criterii
-1. Pe pagina atlas
+1. Pe pagina Atlas
 2. Deschide panoul de filtre
 3. Selectează un tip de forecast (ex. "Wave height")
 4. Apply
@@ -33,7 +33,7 @@
 3. Citește conținut + vede modele asociate
 4. **Goal**: Învață cum sunt aplicate modelele.
 
-**Priority**: 🟠 High.
+**Priority**: 🔴 Critical.
 
 ### CUJ-A4: Înregistrare cont nou
 1. Click "Register"
@@ -44,7 +44,7 @@
 
 **Priority**: 🔴 Critical (fără asta nu există contributori noi).
 
-## Authenticated user (model contributor)
+## Authenticated user (contributor)
 
 ### CUJ-U1: Login
 1. Click "Login"
