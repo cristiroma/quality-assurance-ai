@@ -3,40 +3,45 @@
 ## Overview
 
 Portal de informații despre **modele oceanice de forecasting**, cu utilizatori autentificați care pot:
-- Adăuga / edita organizația lor pe hartă
-- Adăuga modele de forecasting (cu metadata: tip, regiune, accuracy etc.)
-- Documenta "use cases" legate de modele oceanice
+- Adaugă / editează organizațiile lor pe hartă
+- Adaugă modele de forecasting (cu metadata: tip, regiune, accuracy etc.)
+- Adaugă pe hartă "use cases" pentru aplicații
 - Vizualiza informații pe o hartă interactivă
+- Alte pagini informative despre proiect
 
 ## URLs
 
-| Environment | URL |
-|---|---|
-| Production (site) | https://www.unoceanprediction.org/ |
-| Production (atlas page) | https://www.unoceanprediction.org/en/atlas |
-| Cartography app (iframe) | https://cartography.unoceanprediction.org/ |
-| Staging | TBD |
-| Local dev | TBD |
+| Environment              | URL                                           |
+|--------------------------|-----------------------------------------------|
+| Production (site)        | https://www.unoceanprediction.org/            |
+| Production (atlas page)  | https://www.unoceanprediction.org/en/atlas    |
+| Cartography app (iframe) | https://cartography.unoceanprediction.org/    |
+| Staging                  | https://wwwdev.unoceanprediction.org/         |
+| Cartography app staging  | https://cartographydev.unoceanprediction.org/ |
+| Local dev                | TBD                                           |
 
 ## Tech stack
 
-| Layer | Tech | Notes |
-|---|---|---|
-| CMS | **Drupal 10** | Site principal, autentificare, content management |
-| Cartography app | **Nuxt** | Aplicație separată embedded ca iframe în pagina `/en/atlas` |
-| Hosting | Self-hosted | Self-hosted GitHub Actions runner pentru CI/CD |
-| CI/CD | **GitHub Actions** | Deploy pe staging + prod deja configurat |
-| Issue tracker | **Redmine** (https://helpdesk.eaudeweb.ro/) | |
+| Layer                  | Tech                                        | Notes                                                       |
+|------------------------|---------------------------------------------|-------------------------------------------------------------|
+| CMS                    | **Drupal 10**                               | Site principal, autentificare, content management           |
+| Cartography app        | **Nuxt**                                    | Aplicație separată embedded ca iframe în pagina `/en/atlas` |
+| Hosting                | Self-hosted                                 | Self-hosted GitHub Actions runner pentru CI/CD              |
+| CI/CD                  | **GitHub Actions**                          | Deploy pe staging + prod deja configurat                    |
+| Issue tracker          | **Redmine** (https://helpdesk.eaudeweb.ro/) |                                                             |
 
 ## Echipa
 
-| Rol | Persoană | Alocare |
-|---|---|---|
-| Tech Lead | TBD | |
-| Developer 1 | TBD | |
-| Developer 2 | TBD | |
-| QA | Laura | 16h/săptămână |
-| PM | TBD | |
+| Rol                    | Persoană        | Alocare        |
+|------------------------|-----------------|----------------|
+| Tech Lead              | Leontin Căliman |                |
+| Drupal Developer 1     | Paul Mărtinaș   |                |
+| Drupal Developer 2     | Alex Trandafir  |                |
+| Vuejs/Nuxtjs developer | Narcis Chirilov |                |
+| Vuejs/Nuxtjs developer | Razvan Miu      |                |
+| UX/UI designer         | Alex Ionescu    |                |
+| QA                     | Laura           | 16h/săptămână  |
+| PM                     | Tania Bobeică   |                |
 
 ## Limba și audiența
 

@@ -17,7 +17,7 @@ Impact ↑
         +----------+----------+----------+----→ Probability
           Low        Medium     High
 ```
-*I18n e Low impact aici pentru că site-ul e doar EN.
+* I18n e Low impact aici pentru că site-ul e doar EN.
 
 ## Zone de risc identificate (top → low)
 
