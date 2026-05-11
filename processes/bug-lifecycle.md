@@ -5,42 +5,41 @@ Tracker oficial: **Redmine** – https://helpdesk.eaudeweb.ro/
 ## Stări (Redmine workflow)
 
 ```
-New → Confirmed → In Progress → Resolved → Ready for QA → Closed
+New → Acknowledged → Under work → Quality assurance (internal) → Fixed verified
                                               ↓
-                                          Reopened
+                                          Needs work
 ```
 
 - **New**: bug raportat, nu a fost încă triat.
-- **Confirmed**: triat de tech lead / QA, reproductibil, are severitate/prioritate setate.
-- **In Progress**: developer lucrează la el.
-- **Resolved**: fix făcut, deployed pe staging.
-- **Ready for QA**: Laura testează pe staging.
-- **Closed**: verificat OK pe staging și inclus în release notes.
-- **Reopened**: dacă Laura găsește că fix-ul nu este complet sau a introdus regresie.
+- **Acknowledged**: triat de tech lead / QA, reproductibil, are severitate/prioritate setate.
+- **Under work**: developer lucrează la el.
+- **Quality assurance (internal)**: Laura testează pe staging.
+- **Fixed verified**: verificat OK pe staging și inclus în release notes.
+- **Needs work**: dacă Laura găsește că fix-ul nu este complet sau a introdus regresie.
 
 ## Severitate (impact tehnic)
 
-| Severitate | Definiție | Exemple |
-|---|---|---|
-| **S1 – Critical** | Site down, data loss, security breach | 500 pe homepage, login spart, leak de date |
-| **S2 – Major** | Funcționalitate principală blocată, fără workaround | Nu se pot adăuga modele oceanice, harta nu încarcă |
-| **S3 – Minor** | Funcționalitate afectată parțial sau cu workaround | Filtru hartă nu salvează state, validare formular eronată |
-| **S4 – Trivial** | Cosmetic, typo, UI minor | Aliniere greșită, traducere lipsă |
+| Severitate        | Definiție                                           | Exemple                                                   |
+|-------------------|-----------------------------------------------------|-----------------------------------------------------------|
+| **S1 – Critical** | Site down, data loss, security breach               | 500 pe homepage, login spart, leak de date                |
+| **S2 – Major**    | Funcționalitate principală blocată, fără workaround | Nu se pot adăuga modele oceanice, harta nu încarcă        |
+| **S3 – Minor**    | Funcționalitate afectată parțial sau cu workaround  | Filtru hartă nu salvează state, validare formular eronată |
+| **S4 – Trivial**  | Cosmetic, typo, UI minor                            | Aliniere greșită, traducere lipsă                         |
 
 ## Prioritate (urgență business)
 
-`Immediate` / `Urgent` / `High` / `Normal` / `Low` – setată de PM împreună cu clientul.
+`Blocker` / `Urgent` / `High` / `Normal` / `Low` – setată de PM împreună cu clientul.
 
 > Severitatea ≠ prioritatea. Un typo pe homepage poate fi S4 dar prioritate Urgent.
 
 ## SLA intern (recomandat – nu există SLA contractual)
 
-| Severitate | Triere | Fix target |
-|---|---|---|
-| S1 | < 2 ore | < 24h (hotfix branch) |
-| S2 | < 1 zi lucrătoare | În următorul release bi-weekly |
-| S3 | < 2 zile | În următoarele 1–2 release-uri |
-| S4 | Best effort | Backlog |
+| Severitate | Triere            | Fix target                     |
+|------------|-------------------|--------------------------------|
+| S1         | < 2 ore           | < 24h (hotfix branch)          |
+| S2         | < 1 zi lucrătoare | În următorul release bi-weekly |
+| S3         | < 2 zile          | În următoarele 1–2 release-uri |
+| S4         | Best effort       | Backlog                        |
 
 ## Câmpuri obligatorii la raportare
 

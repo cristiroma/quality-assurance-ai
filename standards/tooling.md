@@ -56,12 +56,12 @@
 
 ## Tool-uri **respinse** (și de ce)
 
-| Tool | Motiv |
-|---|---|
-| Selenium | API verbose, mai puțin stabil decât Playwright; codegen mai slab |
-| Cypress | Limitări pe multi-tab, multi-origin, iframe (avem iframe Nuxt!), no WebKit |
-| TestCafe | Comunitate mai mică, ecosistem mai sărac |
-| Behat | Ciclu de scriere lent pentru E2E vizuale; păstrăm pentru cazuri Drupal-specific dacă apar |
+| Tool     | Motiv |
+|----------|-------------------------------------------------------------------------------------------|
+| Selenium | API verbose, mai puțin stabil decât Playwright; codegen mai slab                          |
+| Cypress  | Limitări pe multi-tab, multi-origin, iframe, no WebKit                                    |
+| TestCafe | Comunitate mai mică, ecosistem mai sărac                                                  |
+| Behat    | Ciclu de scriere lent pentru E2E vizuale; păstrăm pentru cazuri Drupal-specific dacă apar |
 
 ## Iframe Nuxt – considerație specială
 

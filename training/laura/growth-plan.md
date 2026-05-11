@@ -17,12 +17,13 @@ Pe măsură ce skill-urile cresc, raportul se inversează (luna 4+: 90% execuți
 - Scrie primele 3–5 smoke tests cu **Playwright Codegen** (fără cod scris manual).
 
 ### Săptămâni
-| Săpt | Focus | Deliverable |
-|---|---|---|
-| S1 | Onboarding tehnic + acces medii. Lectură `processes/` și `standards/`. Tour cu tech lead pe codebase. | Notițe + întrebări documentate |
-| S2 | Mapare critical user journeys (împreună cu PM). Documentare în `projects/un-ocean-prediction/critical-user-journeys.md`. | Listă 10–15 CUJs |
-| S3 | Scriere primelor 5 test cases în format Gherkin (template-ul `templates/test-case-template.md`). DevTools workshop (1h cu dev). | 5 TCs + checklist regression v1 |
-| S4 | Instalare Playwright local. Tutorial codegen. Înregistrare 3 smoke tests pentru: home, login, listing modele. | 3 fișiere `*.spec.ts` în repo |
+
+| Săpt | Focus                                                                                                                           | Deliverable                     |
+|------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| S1   | Onboarding tehnic + acces medii. Lectură `processes/` și `standards/`. Tour cu tech lead pe codebase.                           | Notițe + întrebări documentate  |
+| S2   | Mapare critical user journeys (împreună cu PM). Documentare în `projects/un-ocean-prediction/critical-user-journeys.md`.        | Listă 10–15 CUJs                |
+| S3   | Scriere primelor 5 test cases în format Gherkin (template-ul `templates/test-case-template.md`). DevTools workshop (1h cu dev). | 5 TCs + checklist regression v1 |
+| S4   | Instalare Playwright local. Tutorial codegen. Înregistrare 3 smoke tests pentru: home, login, listing modele.                   | 3 fișiere `*.spec.ts` în repo   |
 
 ### Deliverables luna 1
 - ✅ Document `critical-user-journeys.md` complet
@@ -144,19 +145,19 @@ Pe măsură ce skill-urile cresc, raportul se inversează (luna 4+: 90% execuți
 
 ## Indicatori de succes
 
-| KPI | Luna 1 | Luna 3 | Luna 6 |
-|---|---|---|---|
-| Teste E2E scrise | 3 | 20 | 50+ |
-| CUJs acoperite | 20% | 60% | 90% |
-| Flaky rate | n/a | < 5% | < 2% |
-| Teste scrise complet manual (fără codegen) | 0% | 70% | 100% |
-| Autonomie pe debugging | low | medium | high |
+| KPI                                        | Luna 1 | Luna 3 | Luna 6 |
+|--------------------------------------------|--------|--------|--------|
+| Teste E2E scrise                           | 3      | 20     | 50+    |
+| CUJs acoperite                             | 20%    | 60%    | 90%    |
+| Flaky rate                                 | n/a    | < 5%   | < 2%   |
+| Teste scrise complet manual (fără codegen) | 0%     | 70%    | 100%   |
+| Autonomie pe debugging                     | low    | medium | high   |
 
 ## Risk-uri în plan
 
 | Risk | Mitigare |
-|---|---|
-| Lipsa timpului pentru learning din cauza release-urilor | Block calendar 5h/săpt, ne-negociabil |
-| Frustrare cu programarea | Pair sessions săptămânale, început cu codegen, victorii mici |
-| Teste devin flaky și abandonate | Code review obligatoriu pe PR de teste, "fix or delete" rule |
-| Buget redus de la client | Prioritizare strictă pe CUJs cu impact business mare |
+|---------------------------------------------------------|--------------------------------------------------------------|
+| Lipsa timpului pentru learning din cauza release-urilor | Block calendar 5h/săpt, ne-negociabil                        |
+| Frustrare cu programarea                                | Pair sessions săptămânale, început cu codegen, victorii mici |
+| Teste devin flaky și abandonate                         | Code review obligatoriu pe PR de teste, "fix or delete" rule |
+| Buget redus de la client                                | Prioritizare strictă pe CUJs cu impact business mare         |

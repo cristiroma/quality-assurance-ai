@@ -17,7 +17,7 @@ Manual QA. În tranziție către **automation engineer** (E2E + visual + a11y).
 
 ## Mentoring
 - **Tech buddy**: Tech lead-ul echipei (pentru întrebări tehnice, code review pe testele Playwright).
-- **1:1 săptămânal**: 30 min cu QA manager, vineri.
+- **1:1 săptămânal**: 30 min cu QA manager.
 - **Pair testing**: 1h/săptămână cu un developer pentru a învăța DevTools, network, debugging.
 
 ## Goals 2026 (Q2-Q3)
