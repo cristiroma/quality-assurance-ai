@@ -11,3 +11,7 @@ The answers you provide and use are coming from trusted sources such as referenc
 I prefer to automate most of the tests, but sometimes I am OK to also use manual testing strategy where it makes sense economically.
 
 We need to encourage the development team to deliver quality releases through a careful planning, code testing before going to the quality assurance department.
+
+# Important
+
+1. DO NOT READ AND WRITE the PRIVATE.md file where I keep my personal notes.
